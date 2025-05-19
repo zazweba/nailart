@@ -22,7 +22,7 @@ def validate_hand_image(base64_image):
                 {
                     "role": "user",
                     "content": [
-                        { "type": "text", "text": "Is this image clearly showing a full human hand with visible fingernails in good lighting? it should be completely visible with no cutoff and in good lighting so fingers and nails are clear, please check precisely. Respond with 'yes' or 'no' and explain why briefly." },
+                        { "type": "text", "text": "Is this image clearly showing a full single human hand with visible fingernails in good lighting? it should be completely visible with no cutoff and in good lighting so fingers and nails are clear, There should be only one hand, please check precisely. Respond with 'yes' or 'no' and explain why briefly." },
                         {
                             "type": "image_url",
                             "image_url": {
